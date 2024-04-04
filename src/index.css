@@ -192,3 +192,29 @@ body {
 .btn-submit:hover {
   background-color: #0056b3;
 }
+.task {
+  border: 2px solid #ccc; /* Border style */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding inside the border */
+  margin-bottom: 16px; /* Spacing between tasks */
+  display: flex; /* Flex layout */
+  justify-content: space-between; /* Align items */
+}
+
+.taskName, .taskDate {
+  margin: 0; /* Remove default margin */
+}
+
+.textBold {
+  font-weight: bold; /* Make text bold */
+}
+
+.delIcon, .editIcon {
+  cursor: pointer; /* Change cursor on hover */
+  color: #888; /* Icon color */
+  margin-left: 8px; /* Spacing between icons */
+}
+
+.delIcon:hover, .editIcon:hover {
+  color: #555; /* Icon color on hover */
+}
